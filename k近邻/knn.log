@@ -1,0 +1,11 @@
+07-24 15:43  INFO     This is an info message.
+07-24 15:43  INFO     Loading data....
+07-24 15:43  INFO     Loading data done.
+07-24 15:43  INFO     test data shape is:(200,784)
+07-24 15:43  INFO     train data shape is:(6000,784)
+07-24 15:43  INFO     Testing data:(0/200), and correct_num:0
+07-24 15:43  INFO     Testing data:(50/200), and correct_num:47
+07-24 15:43  INFO     Testing data:(100/200), and correct_num:94
+07-24 15:43  INFO     Testing data:(150/200), and correct_num:140
+07-24 15:43  INFO     accuracy:0.925
+07-24 15:43  INFO     Total Time: 37

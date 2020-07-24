@@ -1,0 +1,6 @@
+07-24 15:14  INFO     this is an info message.
+07-24 15:14  INFO     Loading data....
+07-24 15:14  INFO     Loading data done.
+07-24 15:14  INFO     test data shape is:(200,784)
+07-24 15:14  INFO     train data shape is:(200,784)
+07-24 15:14  INFO     Testing data:(0/200)

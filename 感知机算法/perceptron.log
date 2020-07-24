@@ -1,0 +1,59 @@
+07-24 15:23  INFO     this is an info message.
+07-24 15:23  INFO     Loading data....
+07-24 15:23  INFO     Loading data done.
+07-24 15:23  INFO     Start training...
+07-24 15:23  INFO     train data shape is:(12665,784)
+07-24 15:23  INFO     Iteration:0 / 50
+07-24 15:23  INFO     Iteration:1 / 50
+07-24 15:23  INFO     Iteration:2 / 50
+07-24 15:23  INFO     Iteration:3 / 50
+07-24 15:23  INFO     Iteration:4 / 50
+07-24 15:23  INFO     Iteration:5 / 50
+07-24 15:23  INFO     Iteration:6 / 50
+07-24 15:23  INFO     Iteration:7 / 50
+07-24 15:23  INFO     Iteration:8 / 50
+07-24 15:23  INFO     Iteration:9 / 50
+07-24 15:23  INFO     Iteration:10 / 50
+07-24 15:23  INFO     Iteration:11 / 50
+07-24 15:23  INFO     Iteration:12 / 50
+07-24 15:23  INFO     Iteration:13 / 50
+07-24 15:23  INFO     Iteration:14 / 50
+07-24 15:23  INFO     Iteration:15 / 50
+07-24 15:23  INFO     Iteration:16 / 50
+07-24 15:23  INFO     Iteration:17 / 50
+07-24 15:23  INFO     Iteration:18 / 50
+07-24 15:23  INFO     Iteration:19 / 50
+07-24 15:23  INFO     Iteration:20 / 50
+07-24 15:23  INFO     Iteration:21 / 50
+07-24 15:23  INFO     Iteration:22 / 50
+07-24 15:23  INFO     Iteration:23 / 50
+07-24 15:23  INFO     Iteration:24 / 50
+07-24 15:23  INFO     Iteration:25 / 50
+07-24 15:23  INFO     Iteration:26 / 50
+07-24 15:23  INFO     Iteration:27 / 50
+07-24 15:23  INFO     Iteration:28 / 50
+07-24 15:23  INFO     Iteration:29 / 50
+07-24 15:23  INFO     Iteration:30 / 50
+07-24 15:23  INFO     Iteration:31 / 50
+07-24 15:23  INFO     Iteration:32 / 50
+07-24 15:23  INFO     Iteration:33 / 50
+07-24 15:23  INFO     Iteration:34 / 50
+07-24 15:23  INFO     Iteration:35 / 50
+07-24 15:23  INFO     Iteration:36 / 50
+07-24 15:23  INFO     Iteration:37 / 50
+07-24 15:23  INFO     Iteration:38 / 50
+07-24 15:23  INFO     Iteration:39 / 50
+07-24 15:23  INFO     Iteration:40 / 50
+07-24 15:23  INFO     Iteration:41 / 50
+07-24 15:23  INFO     Iteration:42 / 50
+07-24 15:23  INFO     Iteration:43 / 50
+07-24 15:23  INFO     Iteration:44 / 50
+07-24 15:23  INFO     Iteration:45 / 50
+07-24 15:23  INFO     Iteration:46 / 50
+07-24 15:23  INFO     Iteration:47 / 50
+07-24 15:23  INFO     Iteration:48 / 50
+07-24 15:23  INFO     Iteration:49 / 50
+07-24 15:23  INFO     Training done.
+07-24 15:23  INFO     Testing this model.
+07-24 15:23  INFO     accuracy:0.9916
+07-24 15:23  INFO     Total Time:18.173146724700928
