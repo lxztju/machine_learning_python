@@ -7,8 +7,7 @@
 
 '''
 实现一个KNN算法，并实现两种进行最近邻搜索的方法，
-一种是线性的搜索
-一种是 KD树
+线性搜索最近邻
 ---------------
 距离的度量采用欧式距离与曼哈顿距离计算
 '''
@@ -20,7 +19,7 @@ import logging
 
 
 
-class KNN():
+class Knn():
     def __init__(self, k, num_classes, dist_method):
         self.k = k
         self.num_classes = num_classes
@@ -175,13 +174,15 @@ if __name__ == '__main__':
 
 
     # mnist数据集的存储位置
-    train_path = '../mnist/mnist_train.csv'
-    test_path = '../mnist/mnist_train.csv'
+    import os
+    home = os.path.expanduser('~')
+    train_path = home + '/ML/mnist/mnist_train.csv'
+    test_path = home + '/ML/mnist/mnist_train.csv'
 
     topk = 20
     num_classes = 10
     dist_method = 'l2'
-    knn = KNN(topk, num_classes, dist_method)
+    knn = Knn(topk, num_classes, dist_method)
 
     # 读取训练与测试集
     logging.info('Loading data....')

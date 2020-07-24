@@ -162,8 +162,10 @@ if __name__ == '__main__':
 
 
     # mnist数据集的存储位置
-    train_path = '../mnist/mnist_train.csv'
-    test_path = '../mnist/mnist_train.csv'
+    import os
+    home = os.path.expanduser('~')
+    train_path = home + '/ML/mnist/mnist_train.csv'
+    test_path = home + '/ML/mnist/mnist_train.csv'
 
     # 读取训练与测试集
     logging.info('Loading data....')
