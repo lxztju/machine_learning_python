@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d1384cb-8798-469d-a70c-c68ec3f9ba7a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/k近邻/knn_kd.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/k近邻/knn.log" beforeDir="false" afterPath="$PROJECT_DIR$/k近邻/knn.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/k近邻/knn.py" beforeDir="false" afterPath="$PROJECT_DIR$/k近邻/knn.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/k近邻/perceptron.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/感知机算法/perceptron.py" beforeDir="false" afterPath="$PROJECT_DIR$/感知机算法/perceptron.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,12 +13,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/k近邻/knn_kd.py">
+        <entry file="file://$PROJECT_DIR$/朴素贝叶斯/NaiveBayes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="421">
-              <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
+            <state relative-caret-position="274">
+              <caret line="176" lean-forward="true" selection-start-line="176" selection-end-line="176" />
               <folding>
-                <element signature="e#181#192#0" expanded="true" />
+                <element signature="e#117#135#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -31,20 +27,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/k近邻/knn.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="164" column="35" lean-forward="true" selection-start-line="164" selection-start-column="35" selection-end-line="164" selection-end-column="35" />
-              <folding>
-                <element signature="e#206#224#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/感知机算法/perceptron.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="164" selection-start-line="164" selection-end-line="167" selection-end-column="50" />
+            <state relative-caret-position="374">
+              <caret line="31" column="18" lean-forward="true" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -78,6 +62,7 @@
         <option value="$PROJECT_DIR$/感知机算法/perceptron.py" />
         <option value="$PROJECT_DIR$/k近邻/knn.py" />
         <option value="$PROJECT_DIR$/k近邻/knn_kd.py" />
+        <option value="$PROJECT_DIR$/朴素贝叶斯/NaiveBayes.py" />
       </list>
     </option>
   </component>
@@ -87,13 +72,14 @@
     <option name="width" value="928" />
     <option name="height" value="1056" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -111,10 +97,16 @@
               <item name="Machine_learning_python" type="462c0819:PsiDirectoryNode" />
               <item name="感知机算法" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Machine_learning_python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Machine_learning_python" type="462c0819:PsiDirectoryNode" />
+              <item name="朴素贝叶斯" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -137,7 +129,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.knn">
+  <component name="RunManager" selected="Python.NaiveBayes">
+    <configuration name="NaiveBayes" type="PythonConfigurationType" factoryName="Python">
+      <module name="Machine_learning_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/朴素贝叶斯" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/朴素贝叶斯/NaiveBayes.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="convert_mnist2csv" type="PythonConfigurationType" factoryName="Python">
       <module name="ML" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -239,23 +253,24 @@
       <updated>1595486360672</updated>
       <workItem from="1595486366686" duration="13006000" />
       <workItem from="1595557134410" duration="3833000" />
-      <workItem from="1595572071529" duration="12721000" />
+      <workItem from="1595572071529" duration="13015000" />
+      <workItem from="1595654431630" duration="6149000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29560000" />
+    <option name="totallyTimeSpent" value="36003000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <frame x="64" y="-4" width="1857" height="1085" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18151632" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18372993" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32959184" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33061224" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33061224" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -282,6 +297,7 @@
     <SUITE FILE_PATH="coverage/ML$convert_mnist2csv.coverage" NAME="convert_mnist2csv Coverage Results" MODIFIED="1595496011708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mnist" />
     <SUITE FILE_PATH="coverage/ML$perceptron.coverage" NAME="perceptron Coverage Results" MODIFIED="1595499657314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/感知机算法" />
     <SUITE FILE_PATH="coverage/Machine_learning_python$knn.coverage" NAME="knn Coverage Results" MODIFIED="1595597857960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/k近邻" />
+    <SUITE FILE_PATH="coverage/Machine_learning_python$NaiveBayes.coverage" NAME="NaiveBayes Coverage Results" MODIFIED="1595660615421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/朴素贝叶斯" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/mnist/load_mnist.py" />
@@ -292,29 +308,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/感知机算法/perceptron.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="164" selection-start-line="164" selection-end-line="167" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/k近邻/knn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="164" column="35" lean-forward="true" selection-start-line="164" selection-start-column="35" selection-end-line="164" selection-end-column="35" />
-          <folding>
-            <element signature="e#206#224#0" expanded="true" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="154">
+            <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/k近邻/knn_kd.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
+        <state relative-caret-position="886">
+          <caret line="78" column="22" selection-start-line="78" selection-start-column="22" selection-end-line="78" selection-end-column="22" />
           <folding>
             <element signature="e#181#192#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/感知机算法/perceptron.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="158" column="28" lean-forward="true" selection-start-line="158" selection-start-column="28" selection-end-line="158" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/k近邻/knn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="31" column="18" lean-forward="true" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/朴素贝叶斯/NaiveBayes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="176" lean-forward="true" selection-start-line="176" selection-end-line="176" />
+          <folding>
+            <element signature="e#117#135#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1,0 +1,11 @@
+07-25 15:03  INFO     This is an info message.
+07-25 15:03  INFO     Loading data....
+07-25 15:03  INFO     Loading data done.
+07-25 15:03  INFO     Getting the prior distribution.
+07-25 15:04  INFO     Getting the Conditional probability distribution.
+07-25 15:04  INFO     Testing the testdata: (0/200.
+07-25 15:04  INFO     Testing the testdata: (50/200.
+07-25 15:04  INFO     Testing the testdata: (100/200.
+07-25 15:04  INFO     Testing the testdata: (150/200.
+07-25 15:04  INFO     accuracy:0.88
+07-25 15:04  INFO     Total Time: 48
