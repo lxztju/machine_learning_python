@@ -4,10 +4,18 @@
 # @author :lxztju
 # @github : https://github.com/lxztju
 
+'''
+实现朴素贝叶斯分类器
+并采用mnist数据集测试模型
+'''
+
+
 
 import numpy as np
 import logging
 import time
+
+
 
 
 def loadData(fileName):

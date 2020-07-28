@@ -41,11 +41,19 @@ def convert(img_path, label_path, target_path, n):
     label.close()
 
 if __name__ == '__main__':
+    import os
+    home = os.path.expanduser('~')
+    path = home + '/ML/mnist/'
+    convert(path + "train-images.idx3-ubyte", path + "train-labels.idx1-ubyte",
+            path + "mnist_train.csv", 60000)
+    convert(path + "t10k-images.idx3-ubyte", path + "t10k-labels.idx1-ubyte",
+            path + "mnist_test.csv", 10000)
 
-    convert("./train-images.idx3-ubyte", "./train-labels.idx1-ubyte",
-            "mnist_train.csv", 60000)
-    convert("./t10k-images.idx3-ubyte", "./t10k-labels.idx1-ubyte",
-            "mnist_test.csv", 10000)
+
+    convert(path + "train-images.idx3-ubyte", path + "train-labels.idx1-ubyte",
+            path + "mnist_train_samples.csv", 200)
+    convert(path + "t10k-images.idx3-ubyte", path + "t10k-labels.idx1-ubyte",
+            path + "mnist_test_samples.csv", 10)
 
     # import pandas as pd
     # test_data = pd.read_csv('./mnist_test.csv')

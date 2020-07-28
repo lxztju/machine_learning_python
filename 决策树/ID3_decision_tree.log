@@ -1,0 +1,9 @@
+07-27 15:51  INFO     This is an info message.
+07-27 15:51  INFO     Loading data....
+07-27 15:51  INFO     Loading data done.
+07-27 15:51  INFO     Building a decision tree.
+07-27 15:54  INFO     Using decision tree to predict one sample.
+07-27 15:54  INFO     Testing processing Done,and the prediction and label are : (7,7)
+07-27 15:54  INFO     Testing the decision model.
+07-27 15:54  INFO     accuracy:0.87
+07-27 15:54  INFO     Total Time: 176
