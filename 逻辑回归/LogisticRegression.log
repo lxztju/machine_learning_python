@@ -1,0 +1,9 @@
+07-28 22:11  INFO     This is an info message.
+07-28 22:11  INFO     Loading data....
+07-28 22:11  INFO     Loading data done.
+07-28 22:11  INFO     Building a LogisticRegression model.
+07-28 22:12  INFO     Using LogisticRegression to predict one sample.
+07-28 22:12  INFO     Testing processing Done,and the prediction and label are : (0,0)
+07-28 22:12  INFO     Testing the LogisticRegression model.
+07-28 22:12  INFO     accuracy:1.0
+07-28 22:12  INFO     Total Time: 29
