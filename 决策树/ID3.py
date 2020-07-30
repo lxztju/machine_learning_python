@@ -44,7 +44,7 @@ def loadData(fileName):
 
 
 
-class ID3DecisionTree():
+class ID3DecisionTree:
     def __init__(self, traindataList, trainlabelList):
         '''
         初始化决策树类

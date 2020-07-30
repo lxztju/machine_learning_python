@@ -18,7 +18,6 @@ if wx >= 0:
 else:
     e = np.exp(wx)
     probabilty = e / (1 + e)
-
 '''
 
 
@@ -61,7 +60,7 @@ def loadData(fileName):
 
 
 
-class LogisticRegression():
+class LogisticRegression:
     def __init__(self, traindataList, trainlabelList):
         for i in range(len(traindataList)):
             traindataList[i].append(1)

@@ -15,42 +15,45 @@ import time
 import logging
 
 
+def loadData(fileName):
+    '''
+    加载Mnist数据集
+    :param fileName:要加载的数据集路径
+    :return: list形式的数据集及标记
+    '''
+    # 存放数据及标记的list
+    dataArr = []
+    labelArr = []
+    # 打开文件
+    fr = open(fileName, 'r')
+    # 将文件按行读取
+    for line in fr.readlines():
+        # 对每一行数据按切割福','进行切割，返回字段列表
+        curLine = line.strip().split(',')
 
-class Perceptron():
+        # Mnsit有0-9是个标记，由于是二分类任务，所以仅仅挑选其中的0和1两类作为正负类进行分类
+        # if int(curLine[0]) != 0 or int(curLine[0]) !=1: continue
+        if int(curLine[0]) == 0 or int(curLine[0]) == 1:
+            if int(curLine[0]) == 0:
+                labelArr.append(1)
+            else:
+                labelArr.append(-1)
+            dataArr.append([int(num) / 255 for num in curLine[1:]])
+        # 存放标记
+        # [int(num) for num in curLine[1:]] -> 遍历每一行中除了以第一个元素（标记）外将所有元素转换成int类型
+        # [int(num)/255 for num in curLine[1:]] -> 将所有数据除255归一化(非必须步骤，可以不归一化)
+        # dataArr.append([int(num)/255 for num in curLine[1:]])
+
+    # 返回data和label
+    return dataArr, labelArr
+
+
+class Perceptron:
     def __init__(self):
         pass
 
 
-    def loadData(self, fileName):
-        '''
-        加载Mnist数据集
-        :param fileName:要加载的数据集路径
-        :return: list形式的数据集及标记
-        '''
-        # 存放数据及标记的list
-        dataArr = []; labelArr = []
-        # 打开文件
-        fr = open(fileName, 'r')
-        # 将文件按行读取
-        for line in fr.readlines():
-            # 对每一行数据按切割福','进行切割，返回字段列表
-            curLine = line.strip().split(',')
 
-            # Mnsit有0-9是个标记，由于是二分类任务，所以仅仅挑选其中的0和1两类作为正负类进行分类
-            # if int(curLine[0]) != 0 or int(curLine[0]) !=1: continue
-            if int(curLine[0]) == 0 or int(curLine[0]) == 1:
-                if int(curLine[0])== 0 :
-                    labelArr.append(1)
-                else:
-                    labelArr.append(-1)
-                dataArr.append([int(num) / 255 for num in curLine[1:]])
-            #存放标记
-            #[int(num) for num in curLine[1:]] -> 遍历每一行中除了以第一个元素（标记）外将所有元素转换成int类型
-            #[int(num)/255 for num in curLine[1:]] -> 将所有数据除255归一化(非必须步骤，可以不归一化)
-            # dataArr.append([int(num)/255 for num in curLine[1:]])
-
-        #返回data和label
-        return dataArr, labelArr
 
 
 
@@ -174,8 +177,8 @@ if __name__ == '__main__':
 
     p = Perceptron()
 
-    train_data_array, train_label_array = p.loadData(train_path)
-    test_data_array, test_label_array = p.loadData(test_path)
+    train_data_array, train_label_array = loadData(train_path)
+    test_data_array, test_label_array = loadData(test_path)
     logging.info('Loading data done.')
 
     #训练感知机算法

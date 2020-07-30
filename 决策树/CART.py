@@ -45,7 +45,7 @@ def loadData(fileName):
 
 
 
-class CARTDecisionTree():
+class CARTDecisionTree:
     def __init__(self, traindataList, trainlabelList):
         '''
         初始化决策树类

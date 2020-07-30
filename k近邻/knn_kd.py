@@ -48,7 +48,7 @@ def loadData(fileName):
 
 
 # kd-tree每个结点中主要包含的数据结构如下
-class KdNode():
+class KdNode:
     def __init__(self, dom_elt, split, left, right):
         self.dom_elt = dom_elt  # k维向量节点(k维空间中的一个样本点)
         self.split = split  # 整数（进行分割维度的序号）
@@ -56,7 +56,7 @@ class KdNode():
         self.right = right  # 该结点分割超平面右子空间构成的kd-tree
 
 
-class KdTree():
+class KdTree:
     '''
     对于输入空间构建KD树
     '''

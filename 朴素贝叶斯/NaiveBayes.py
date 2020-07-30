@@ -45,7 +45,7 @@ def loadData(fileName):
     return dataArr, labelArr
 
 
-class NavieBayes():
+class NavieBayes:
     def __init__(self, num_classes, num_features, traindataArr, trianlabelArr):
         '''
         初始化朴素贝叶斯分类器类

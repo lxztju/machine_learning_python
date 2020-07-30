@@ -19,7 +19,7 @@ import logging
 
 
 
-class Knn():
+class Knn:
     def __init__(self, k, num_classes, dist_method):
         self.k = k
         self.num_classes = num_classes

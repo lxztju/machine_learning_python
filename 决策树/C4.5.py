@@ -53,7 +53,7 @@ def loadData(fileName):
 
 
 
-class C45DecisionTree():
+class C45DecisionTree:
     def __init__(self, traindataList, trainlabelList):
         '''
         初始化决策树类
