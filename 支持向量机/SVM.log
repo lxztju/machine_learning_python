@@ -1,0 +1,43 @@
+08-01 15:20  INFO     This is an info message.
+08-01 15:20  INFO     Loading data....
+08-01 15:20  INFO     Loading data done.
+08-01 15:20  INFO     Training the SVM model....
+08-01 15:20  INFO     Construct The Gaussian Kernel: (0/1000).
+08-01 15:20  INFO     Construct The Gaussian Kernel: (100/1000).
+08-01 15:20  INFO     Construct The Gaussian Kernel: (200/1000).
+08-01 15:20  INFO     Construct The Gaussian Kernel: (300/1000).
+08-01 15:20  INFO     Construct The Gaussian Kernel: (400/1000).
+08-01 15:20  INFO     Construct The Gaussian Kernel: (500/1000).
+08-01 15:20  INFO     Construct The Gaussian Kernel: (600/1000).
+08-01 15:20  INFO     Construct The Gaussian Kernel: (700/1000).
+08-01 15:20  INFO     Construct The Gaussian Kernel: (800/1000).
+08-01 15:20  INFO     Construct The Gaussian Kernel: (900/1000).
+08-01 15:20  INFO     Iter:0/13
+08-01 15:20  INFO     Iter:1/13
+08-01 15:20  INFO     Training process is Done !!!!
+08-01 15:20  INFO     Predicting one sample ....
+08-01 15:20  INFO     The prediction and the ground truth is : (-1.0, -1)
+08-01 15:20  INFO     Testing processing: (0/2115) and the currect prediction:0
+08-01 15:20  INFO     Testing processing: (100/2115) and the currect prediction:98
+08-01 15:20  INFO     Testing processing: (200/2115) and the currect prediction:197
+08-01 15:20  INFO     Testing processing: (300/2115) and the currect prediction:297
+08-01 15:20  INFO     Testing processing: (400/2115) and the currect prediction:397
+08-01 15:20  INFO     Testing processing: (500/2115) and the currect prediction:495
+08-01 15:20  INFO     Testing processing: (600/2115) and the currect prediction:594
+08-01 15:20  INFO     Testing processing: (700/2115) and the currect prediction:693
+08-01 15:20  INFO     Testing processing: (800/2115) and the currect prediction:790
+08-01 15:20  INFO     Testing processing: (900/2115) and the currect prediction:888
+08-01 15:20  INFO     Testing processing: (1000/2115) and the currect prediction:987
+08-01 15:20  INFO     Testing processing: (1100/2115) and the currect prediction:1086
+08-01 15:20  INFO     Testing processing: (1200/2115) and the currect prediction:1186
+08-01 15:20  INFO     Testing processing: (1300/2115) and the currect prediction:1286
+08-01 15:20  INFO     Testing processing: (1400/2115) and the currect prediction:1385
+08-01 15:20  INFO     Testing processing: (1500/2115) and the currect prediction:1485
+08-01 15:20  INFO     Testing processing: (1600/2115) and the currect prediction:1584
+08-01 15:20  INFO     Testing processing: (1700/2115) and the currect prediction:1684
+08-01 15:20  INFO     Testing processing: (1800/2115) and the currect prediction:1784
+08-01 15:20  INFO     Testing processing: (1900/2115) and the currect prediction:1883
+08-01 15:20  INFO     Testing processing: (2000/2115) and the currect prediction:1983
+08-01 15:20  INFO     Testing processing: (2100/2115) and the currect prediction:2080
+08-01 15:20  INFO     accuracy:99.0544
+08-01 15:20  INFO     Total Time: 31
