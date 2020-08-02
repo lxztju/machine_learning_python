@@ -1,0 +1,56 @@
+08-02 10:47  INFO     This is an info message.
+08-02 10:47  INFO     Loading data....
+08-02 10:47  INFO     Loading data done.
+08-02 10:47  INFO     Training the AdaBoost model....
+08-02 10:47  INFO     The 0th Tree, The train data's accuracy is:0.9812
+08-02 10:48  INFO     The 1th Tree, The train data's accuracy is:0.9812
+08-02 10:48  INFO     The 2th Tree, The train data's accuracy is:0.9812
+08-02 10:48  INFO     The 3th Tree, The train data's accuracy is:0.9878
+08-02 10:49  INFO     The 4th Tree, The train data's accuracy is:0.9862
+08-02 10:49  INFO     The 5th Tree, The train data's accuracy is:0.9904
+08-02 10:49  INFO     The 6th Tree, The train data's accuracy is:0.988
+08-02 10:49  INFO     The 7th Tree, The train data's accuracy is:0.9924
+08-02 10:50  INFO     The 8th Tree, The train data's accuracy is:0.9898
+08-02 10:50  INFO     The 9th Tree, The train data's accuracy is:0.9939
+08-02 10:50  INFO     The 10th Tree, The train data's accuracy is:0.9929
+08-02 10:50  INFO     The 11th Tree, The train data's accuracy is:0.9942
+08-02 10:51  INFO     The 12th Tree, The train data's accuracy is:0.9934
+08-02 10:51  INFO     The 13th Tree, The train data's accuracy is:0.994
+08-02 10:51  INFO     The 14th Tree, The train data's accuracy is:0.9951
+08-02 10:51  INFO     The 15th Tree, The train data's accuracy is:0.9945
+08-02 10:52  INFO     The 16th Tree, The train data's accuracy is:0.9958
+08-02 10:52  INFO     The 17th Tree, The train data's accuracy is:0.9952
+08-02 10:52  INFO     The 18th Tree, The train data's accuracy is:0.9963
+08-02 10:52  INFO     The 19th Tree, The train data's accuracy is:0.9958
+08-02 10:53  INFO     The 20th Tree, The train data's accuracy is:0.997
+08-02 10:53  INFO     The 21th Tree, The train data's accuracy is:0.9963
+08-02 10:53  INFO     The 22th Tree, The train data's accuracy is:0.9965
+08-02 10:54  INFO     The 23th Tree, The train data's accuracy is:0.9968
+08-02 10:54  INFO     The 24th Tree, The train data's accuracy is:0.9974
+08-02 10:54  INFO     The 25th Tree, The train data's accuracy is:0.9974
+08-02 10:54  INFO     The 26th Tree, The train data's accuracy is:0.9974
+08-02 10:55  INFO     The 27th Tree, The train data's accuracy is:0.9977
+08-02 10:55  INFO     The 28th Tree, The train data's accuracy is:0.9978
+08-02 10:55  INFO     The 29th Tree, The train data's accuracy is:0.9981
+08-02 10:55  INFO     The 30th Tree, The train data's accuracy is:0.9981
+08-02 10:56  INFO     The 31th Tree, The train data's accuracy is:0.9985
+08-02 10:56  INFO     The 32th Tree, The train data's accuracy is:0.9978
+08-02 10:56  INFO     The 33th Tree, The train data's accuracy is:0.9983
+08-02 10:56  INFO     The 34th Tree, The train data's accuracy is:0.9982
+08-02 10:57  INFO     The 35th Tree, The train data's accuracy is:0.9982
+08-02 10:57  INFO     The 36th Tree, The train data's accuracy is:0.998
+08-02 10:57  INFO     The 37th Tree, The train data's accuracy is:0.9987
+08-02 10:57  INFO     The 38th Tree, The train data's accuracy is:0.9983
+08-02 10:58  INFO     The 39th Tree, The train data's accuracy is:0.9986
+08-02 10:58  INFO     The 40th Tree, The train data's accuracy is:0.9987
+08-02 10:58  INFO     The 41th Tree, The train data's accuracy is:0.9987
+08-02 10:59  INFO     The 42th Tree, The train data's accuracy is:0.999
+08-02 10:59  INFO     The 43th Tree, The train data's accuracy is:0.9987
+08-02 10:59  INFO     The 44th Tree, The train data's accuracy is:0.9991
+08-02 10:59  INFO     The 45th Tree, The train data's accuracy is:0.9989
+08-02 11:00  INFO     The 46th Tree, The train data's accuracy is:0.9989
+08-02 11:00  INFO     The 47th Tree, The train data's accuracy is:0.9987
+08-02 11:00  INFO     The 48th Tree, The train data's accuracy is:0.9988
+08-02 11:00  INFO     The 49th Tree, The train data's accuracy is:0.9987
+08-02 11:00  INFO     accuracy:99.9527
+08-02 11:00  INFO     Total Time: 789

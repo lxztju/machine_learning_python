@@ -7,7 +7,7 @@
 
 '''
 SVM的python实现
-实现线性软间隔的二分类
+实现软间隔与核函数的非线性SVM二分类器
 
 利用SMO算法进行训练
 '''
@@ -147,11 +147,11 @@ class SVM:
 
         #  书中采用的是alpha等于0，但是可以进行松弛操作
         # if alpha_i == 0:
-        if (math.fabs(self.alpha[i]) < self.toler) and (multiply >= 1):
+        if (abs(self.alpha[i]) < self.toler) and (multiply >= 1):
              return True
         # 哦嗯样均采用松弛之后的
         # if alpha_i == self.C:
-        if math.fabs(self.alpha[i] - self.C) < self.toler and (multiply <= 1):
+        if abs(self.alpha[i] - self.C) < self.toler and (multiply <= 1):
             return True
 
         #if 0 < alpha_i < self.C:
@@ -279,10 +279,10 @@ class SVM:
             self.E[i] = self.calc_Ei(i)
             self.E[j] = self.calc_Ei(j)
             # parameterChanged = 1
-            # print(math.fabs(alpha2New - alpha2Old))
+            # print(abs(alpha2New - alpha2Old))
             # 如果α2的改变量过于小，就认为该参数未改变，不增加parameterChanged值
             # 反之则自增1
-            if math.fabs(alpha2New - alpha2Old) >= 0.00001:
+            if abs(alpha2New - alpha2Old) >= 0.00001:
                 parameterChanged = 1
             # break
         #全部计算结束后，重新遍历一遍α，查找里面的支持向量
