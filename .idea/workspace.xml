@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d1384cb-8798-469d-a70c-c68ec3f9ba7a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/支持向量机/SVM.py" beforeDir="false" afterPath="$PROJECT_DIR$/支持向量机/SVM.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,57 +25,15 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/支持向量机/SVM.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-              <folding>
-                <element signature="e#189#207#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AdaBoost/AdaBoost.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="249" lean-forward="true" selection-start-line="249" selection-end-line="249" />
-              <folding>
-                <element signature="e#168#186#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="414">
-                <caret line="30" selection-start-line="30" selection-end-line="30" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/朴素贝叶斯/NaiveBayes.py">
+        <entry file="file://$PROJECT_DIR$/EM/EM.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="38" column="44" lean-forward="true" selection-start-line="38" selection-end-line="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/逻辑回归/LogisticRegression.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1276">
-              <caret line="81" selection-start-line="81" selection-end-line="81" />
+            <state relative-caret-position="398">
+              <caret line="96" lean-forward="true" selection-start-line="96" selection-end-line="96" />
+              <folding>
+                <element signature="e#153#171#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -128,6 +85,7 @@
         <option value="$PROJECT_DIR$/支持向量机/SVM.py" />
         <option value="$PROJECT_DIR$/AdaBoost/AdaBoost.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/EM/EM.py" />
       </list>
     </option>
   </component>
@@ -145,6 +103,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -155,28 +114,12 @@
             <path>
               <item name="Machine_learning_python" type="b2602c69:ProjectViewProjectNode" />
               <item name="Machine_learning_python" type="462c0819:PsiDirectoryNode" />
-              <item name="感知机算法" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Machine_learning_python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Machine_learning_python" type="462c0819:PsiDirectoryNode" />
-              <item name="支持向量机" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Machine_learning_python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Machine_learning_python" type="462c0819:PsiDirectoryNode" />
-              <item name="朴素贝叶斯" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Machine_learning_python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Machine_learning_python" type="462c0819:PsiDirectoryNode" />
-              <item name="逻辑回归" type="462c0819:PsiDirectoryNode" />
+              <item name="EM" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -185,7 +128,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -204,7 +147,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.AdaBoost">
+  <component name="RunManager" selected="Python.EM">
     <configuration name="AdaBoost" type="PythonConfigurationType" factoryName="Python">
       <module name="Machine_learning_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -263,6 +206,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/决策树/CART.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="EM" type="PythonConfigurationType" factoryName="Python">
+      <module name="Machine_learning_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/EM" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/EM/EM.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -459,6 +424,7 @@
       <item itemvalue="Python.LogisticRegression" />
       <item itemvalue="Python.SVM" />
       <item itemvalue="Python.AdaBoost" />
+      <item itemvalue="Python.EM" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -485,23 +451,24 @@
       <workItem from="1596111933988" duration="1650000" />
       <workItem from="1596188957680" duration="23872000" />
       <workItem from="1596272496306" duration="334000" />
-      <workItem from="1596279617724" duration="16897000" />
+      <workItem from="1596279617724" duration="17814000" />
+      <workItem from="1596434214707" duration="6258000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127896000" />
+    <option name="totallyTimeSpent" value="135071000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="56" y="-4" width="1865" height="1085" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.06666667" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.06721763" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32959184" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33061224" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33061224" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -536,6 +503,7 @@
     <SUITE FILE_PATH="coverage/Machine_learning_python$knn_kd.coverage" NAME="knn_kd Coverage Results" MODIFIED="1595597774545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/k近邻" />
     <SUITE FILE_PATH="coverage/ML$perceptron.coverage" NAME="perceptron Coverage Results" MODIFIED="1595499657314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/感知机算法" />
     <SUITE FILE_PATH="coverage/Machine_learning_python$SVM.coverage" NAME="SVM Coverage Results" MODIFIED="1596266408941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/支持向量机" />
+    <SUITE FILE_PATH="coverage/Machine_learning_python$EM.coverage" NAME="EM Coverage Results" MODIFIED="1596441017257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/EM" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/mnist/load_mnist.py" />
@@ -608,20 +576,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/逻辑回归/LogisticRegression.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1276">
-          <caret line="81" selection-start-line="81" selection-end-line="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/朴素贝叶斯/NaiveBayes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="38" column="44" lean-forward="true" selection-start-line="38" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/支持向量机/SVM.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -632,23 +586,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="238">
+            <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/AdaBoost/AdaBoost.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="249" lean-forward="true" selection-start-line="249" selection-end-line="249" />
+        <state relative-caret-position="120">
+          <caret line="118" column="14" selection-start-line="118" selection-start-column="14" selection-end-line="118" selection-end-column="14" />
           <folding>
             <element signature="e#168#186#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="414">
-            <caret line="30" selection-start-line="30" selection-end-line="30" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/朴素贝叶斯/NaiveBayes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="38" column="44" lean-forward="true" selection-start-line="38" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/逻辑回归/LogisticRegression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1276">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EM/EM.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="96" lean-forward="true" selection-start-line="96" selection-end-line="96" />
+          <folding>
+            <element signature="e#153#171#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

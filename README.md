@@ -27,6 +27,7 @@
 
 
 * AdaBoost
+* EM
 
 
 
